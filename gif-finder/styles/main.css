@@ -1,0 +1,134 @@
+* {
+    font-family: verdana, tahoma, sans-serif;
+}
+
+header 
+{
+    height: 300px;
+}
+
+header h1 
+{
+    margin: 0;
+    color: rgb(255, 85, 85);
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
+    padding-top: 35px;
+    text-shadow: 
+        8px 2px 0 white,   
+        -2px -2px 0 white, 
+        2px -2px 0 white,  
+        -2px 2px 0 white;
+}
+
+body 
+{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px;
+    background-color: #e0f7fa;
+}
+
+header 
+{
+    background-image: url(../images/cats.jpg);
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    background-color: rgb(159, 159, 159);
+    padding: 50px;
+}
+
+.widgets 
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#content 
+{
+    text-align: center;
+}
+
+
+#status 
+{
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    font-stretch: extra-expanded;
+    height: 32px;
+}
+
+.result {
+    position: relative;
+    height: 175px;
+    width: 100px;
+    float: left;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.result img {
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    left: 4px;
+    bottom: 5px;
+    display: block;
+}
+
+.result span {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+.result audio {
+    width: 130px;
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px 18px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.6);
+    font-size: 9.5pt;
+    font-weight: bold;
+    border: 1px solid black;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.4);
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease-in-out;
+}
+
+button.green {
+    border-color: rgb(255, 111, 111);
+    background: linear-gradient(to bottom, rgb(255, 111, 111) 0%, rgb(200, 40, 40) 100%); 
+}
+
+button:hover {
+    background: rgb(255, 140, 140);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+    background: rgb(255, 180, 180); 
+    box-shadow: 0 0 6px rgba(0,0,0,.6);
+}
+
+button:focus { outline: 0; }
+
+.widgets {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
